@@ -10,7 +10,7 @@
     padding: 15px;
     border-radius: 10px;
     min-width: fit-content;
-    max-width: 700;
+    max-width: 1200;
 }
 
 .SearchOverlay {
@@ -23,5 +23,6 @@
     position: absolute;
     top: 75%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-54%, -50%);
+    align-content: center;
 }
