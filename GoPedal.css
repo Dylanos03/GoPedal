@@ -1,7 +1,12 @@
 .searchButton {
-    background-color: greenyellow;
+    background-color: #94c11f;
     border: 0px;
-    margin: 10px;
+    margin: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-family: 'Play', sans-serif;
 }
 
 .formBox {
@@ -10,7 +15,7 @@
     padding: 15px;
     border-radius: 10px;
     min-width: fit-content;
-    max-width: 1200;
+    max-width: 2000;
 }
 
 .SearchOverlay {
@@ -25,4 +30,48 @@
     left: 50%;
     transform: translate(-54%, -50%);
     align-content: center;
+}
+
+.BikeSearch {
+    font-family: 'Play', sans-serif;
+
+}
+
+.WhenDo {
+    padding-right: 8px;
+}
+
+.HomeTitle {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Play', sans-serif;
+}
+
+.GreenWays {
+    text-align: center;
+    align-content: center;
+}
+
+.HomeImg {
+    max-width: 220px;
+    position: static;
+}
+
+.GreenWaysText {
+    padding-top: 5px;
+}
+
+.PickUp {
+    background-color: #C3DFE0;
+    margin-top: 30px;
+}
+
+.PickUpTitle {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+}
+
+.PickUpPointText {
+    
 }

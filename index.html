@@ -9,11 +9,14 @@
     <link rel="Icon" href="Images/Logos/LeafLogo.png">
     <link rel="stylesheet" href="Extras/bootstrap.min.css">
     <link rel="stylesheet" href="GoPedal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="Images/Logos/GoPedalLogo.png" alt="GoPedal" class="img-fluid"
                     width="120"></a>
@@ -34,7 +37,7 @@
     <div class="SearchOverlay">
         <img src="Images/blurred-background-1.jpg" alt="Background" height="350" width="100%">
         <form class="formBox centered">
-            <h1>Bike Search</h1>
+            <h1 class="BikeSearch">Bike Search</h1>
             <div class="form-group">
                 <label for="exampleFormControlSelect1">Where are you?</label>
                 <select class="form-control" id="exampleFormControlSelect1">
@@ -55,7 +58,7 @@
                     <option>E-Bike</option>
                 </select>
             </div>
-            <label for="exampleFormControlSelect1">When do you need it? </label>
+            <label for="exampleFormControlSelect1" class="WhenDo">When do you need it? </label>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                 <label class="form-check-label" for="inlineCheckbox1">Today</label>
@@ -68,8 +71,37 @@
         </div> 
     </form>
     <div>
-        
+        <h1 class="HomeTitle">Travel the Green way</h1>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 GreenWays">
+                <img class="HomeImg" src="Images/BikeRent.png" alt="Rent">
+                <h5 class="GreenWaysText">Rent a bike for the day</h5>
+
+            </div>
+            <div class="col-md-4 col-sm-12 GreenWays">
+                <img class="HomeImg" src="Images/BikeGive.png" alt="Rent">
+                <h5 class="GreenWaysText">Give a bike for the day</h5>
+
+            </div>
+            <div class="col-md-4 col-sm-12 GreenWays">
+                <img class="HomeImg" src="Images/Planet-01.png" alt="Rent">
+                <h5 class="GreenWaysText">Help the planet for the day</h5>
+
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="PickUp">
+            <div>
+                <h1 class="col-12 PickUpTitle">Where can I pick up my Bike?</h1>
+            </div>
+            <div>
+                <h5 class="">We have pick-up points in 4 cities across the UK.</h5>
+            </div>
+        </div>
+    </section>
 
 
 
