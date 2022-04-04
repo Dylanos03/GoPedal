@@ -63,7 +63,7 @@
 
 .PickUp {
     background-color: #C3DFE0;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .PickUpTitle {
@@ -74,4 +74,38 @@
 
 .PickUpPointText {
     text-align: center;
+}
+
+.Map {
+    max-width: 600px;
+    align-items: center;
+}
+
+.MapText {
+    padding: 25px;
+}
+
+.MemberTitle {
+    font-family: 'Play', sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+.Member {
+    align-items: center;
+}
+
+.MemImg {
+    max-width: 350px;
+    align-self: center;
+}
+
+.MemTxt {
+    text-align: center;
+    padding: 12px;
+}
+
+.NoMem {
+    text-align: center;
+    padding: 10px;
 }
