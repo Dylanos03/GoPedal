@@ -1,5 +1,5 @@
 .searchButton {
-    background-color: #C3DFE0;
+    background-color: white;
     border: 0px;
     margin: 20px;
     padding: 5px;
@@ -7,6 +7,7 @@
     padding-right: 20px;
     border-radius: 5px;
     font-family: 'Play', sans-serif;
+    color: #C3DFE0;
 }
 
 .formBox {
@@ -36,7 +37,7 @@
 
 .BikeSearch {
     font-family: 'Play', sans-serif;
-
+    color: white;
 }
 
 .WhenDo {
@@ -174,4 +175,9 @@
 
 .Inputs {
     margin-top: 20px;
+    color: #C3DFE0;
+}
+
+.checkBox {
+    color: white;
 }
