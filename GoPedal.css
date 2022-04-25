@@ -11,12 +11,12 @@
 }
 
 .formBox {
-    margin: 20px;
+    margin: 0px;
     background-color: #d7da01;
-    padding: 30px;
+    padding: 20px;
     padding-left: 80px;
     padding-right: 80px;
-    border-radius: 100px;
+    border-radius: 60px;
     min-width: fit-content;
     max-width: 2000;
 }
@@ -31,13 +31,14 @@
     position: absolute;
     top: 75%;
     left: 50%;
-    transform: translate(-54%, -50%);
+    transform: translate(-50%, -50%);
     align-content: center;
 }
 
 .BikeSearch {
     font-family: 'Play', sans-serif;
     color: white;
+    font-size: 70px;
 }
 
 .WhenDo {
@@ -48,6 +49,7 @@
     text-align: center;
     margin-top: 100px;
     font-family: 'Play', sans-serif;
+    padding: 30px;
 }
 
 .GreenWays {
@@ -56,12 +58,14 @@
 }
 
 .HomeImg {
-    max-width: 220px;
+    max-height: 220px;
     position: static;
+    padding: 20px;
 }
 
 .GreenWaysText {
     padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 .PickUp {
@@ -143,8 +147,8 @@
 .Prices {
     background-color: #C3DFE0;
     padding-left: 8px;
-    border-radius: 8px;
-    border-color: white;
+    border-radius: 5px;
+    border: none;
     font-size: large;
 }
 
@@ -180,4 +184,38 @@
 
 .checkBox {
     color: white;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+body {
+    background-image: url(images/BackBike.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+.whiteBack {
+    background-color: white;
+}
+
+.Search {
+    background-color: #d7da01;
+    font-family: 'Play', sans-serif;
+    font-size: x-large;
+    color: white;
+    padding: 40px;
+    border-radius: 60px;
+    border: none;
+    padding-left: 80px;
+    padding-right: 80px
+}
+
+.subBikeSearch {
+    color: white;
+    padding-bottom: 10px;
 }
