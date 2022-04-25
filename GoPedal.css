@@ -100,7 +100,7 @@
 }
 
 .Member {
-    align-items: center;
+    align-content: center;
 }
 
 .MemImg {
@@ -158,7 +158,7 @@
 
 .FooterTxt {
     color: white;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
     margin-top: 10px;
 }
@@ -172,9 +172,9 @@
 
 .FooterSub {
     color: lightgrey;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .Inputs {
@@ -218,4 +218,46 @@ body {
 .subBikeSearch {
     color: white;
     padding-bottom: 10px;
+}
+
+.Events {
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.memCard {
+    margin: 0px;
+
+}
+
+.searchItems {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+}
+
+.EventContainer {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.Member {
+    align-items: center;
+}
+
+.carouselCaption {
+    font-size: 60px;
+}
+
+.carouselSub {
+    font-size: 20px;
+}
+
+.caption {
+    background-color: #C3DFE0;
+    border: none;
 }

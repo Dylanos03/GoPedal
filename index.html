@@ -12,31 +12,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar sticky-top navbar-expand navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="Images/Logos/GoPedalLogo.png" alt="GoPedal" class="img-fluid"
                     width="120"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav navbar-center">
-                    <a class="nav-link active navbarCenter" aria-current="page" href="#">Home</a>
-                    <a class="nav-link navbarCenter" href="#Pick-Up">Pick-up Points</a>
-                    <a class="nav-link navbarCenter" href="#Membership">Membership</a>
+                <div class="navbar-nav ">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link " href="#Pick-Up">Pick-up Points</a>
+                    <a class="nav-link " href="#Membership">Membership</a>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="SearchOverlay p-5" style="min-height: 400px;">
-        <h1 class="BikeSearch">Bike Search</h1>
-        <h5 class="subBikeSearch">Find a bike near you and get pedalling!</h5>
-        <button class="Search">Search</button>
+    <div class="SearchOverlay p-5" style="min-height: 570px;">
+        <div class="container searchItems">
+            <h1 class="BikeSearch">Bike Search</h1>
+            <h5 class="subBikeSearch">Leave the car at home, find a bike near you and get pedalling!</h5>
+            <button class="Search">Search</button>
+        </div>
     </div>
     </form>
     <div class="whiteBack">
@@ -118,7 +117,8 @@
                                             <div class="col-11">
                                                 <h6> Bristol - <br> There is 2 Pick up and drop off points in Bristol:
                                                     <br>
-                                                    - Cabot Circus <br> - City center.</h6>
+                                                    - Cabot Circus <br> - City center.
+                                                </h6>
                                             </div>
                                         </div>
                                     </div>
@@ -143,36 +143,88 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="container EventContainer">
+                <h1 class="Events">Events you may have missed</h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="Images/DNBBike.jpg" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block caption">
+                                <h5 class="carouselCaption">Dom Whiting</h5>
+                                <p class="carouselSub">Drum and bass on a bike Bristol</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="Images/BikeRide.jpg" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block caption">
+                                <h5 class="carouselCaption">Race for life</h5>
+                                <p class="carouselSub">Raising money for the British Heart Foundation</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="Images/Manchester.jpg" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block caption">
+                                <h5 class="carouselCaption">Manchester sprint</h5>
+                                <p class="carouselSub">The 1000m race in manchester</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                    </a>
+                </div>
+            </div>
+        </section>
         <section id="Membership">
             <h1 class="MemberTitle">
                 Become a member today!
             </h1>
             <div class="container Member">
                 <div class="row">
-                    <div class="col-12 col-md-4 MemTxt">
-                        <img src="Images/GoldMem-01.png" alt="Gold" class="MemImg">
-                        <h4>Gold Membership</h4>
-                        <h6>This is our top membership. With this you will get access to a rental bike 24/7, removing
-                            the
-                            late night usage charge, and will not be charged extra for leaving the bike at another
-                            pick-up/drop-off point <br> <br></h6>
-                        <button class="Prices">£40/m</button>
+                    <div class="card col-12 col-md-4 memCard">
+                        <img class="card-img-top" src="Images/GoldMem-01.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Gold Membership</h5>
+                            <p class="card-text">This is our top membership. With this you will get access to a rental
+                                bike 24/7, removing
+                                the
+                                late night usage charge, and will not be charged extra for leaving the bike at another
+                                pick-up/drop-off point</p>
+                            <a href="#" class="btn btn-secondary">£40pm</a>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-4 MemTxt">
-                        <img src="Images/SilverMem-01.png" alt="Gold" class="MemImg">
-                        <h4>Silver Membership</h4>
-                        <h6>This is our second tier membership. This membership allows you access to 20 rental bikes
-                            usages
-                            a month for free, with a reduced charge of £1.50 for any extra uses <br> <br> <br></h6>
-                        <button class="Prices">£30/m</button>
+                    <div class="card col-12 col-md-4 memCard">
+                        <img class="card-img-top" src="Images/SilverMem-01.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Silver Membership</h5>
+                            <p class="card-text">This is our second tier membership. This membership allows you access
+                                to 20 rental bikes
+                                usages
+                                a month for free, with a reduced charge of £1.50 for any extra uses</p>
+                            <a href="#" class="btn btn-secondary">£30pm</a>
+                        </div>
                     </div>
-                    <div class="col-12 col-md-4 MemTxt">
-                        <img src="Images/BronzeMem-01.png" alt="Gold" class="MemImg">
-                        <h4>Bronze Membership</h4>
-                        <h6>This is our Base membership. With this membership, you will have access to 10 rental bike
-                            usages
-                            a month for free, with a reduced charge of £2 for any extra uses <br> <br> <br></h6>
-                        <button class="Prices">£20/m</button>
+                    <div class="card col-12 col-md-4 memCard">
+                        <img class="card-img-top" src="Images/BronzeMem-01.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Bronze Membership</h5>
+                            <p class="card-text">This is our Base membership. With this membership, you will have access
+                                to 10 rental bike
+                                usages
+                                a month for free, with a reduced charge of £2 for any extra uses</p>
+                            <a href="#" class="btn btn-secondary">£20pm</a>
+                        </div>
                     </div>
                     <div>
                         <h3 class="NoMem">Don't want to be a member? </h3>
@@ -193,11 +245,13 @@
                 <h6 class="FooterTxt">Support</h6>
                 <h6 class="FooterSub" href="##">Contact Us</h6>
                 <h6 class="FooterSub" href="#">FAQs</h6>
+                <h6 class="FooterSub" href="#">Work for us</h6>
             </div>
             <div class="col-md-3 col-6">
                 <h6 class="FooterTxt">Where to?</h6>
                 <h6 class="FooterSub" href="#">Top of the page</h6>
                 <h6 class="FooterSub" href="#">Map</h6>
+                <h6 class="FooterSub" href="#">Membership</h6>
             </div>
         </div>
     </section>
@@ -213,6 +267,9 @@
 
     <script src="Extras/bootstrap.min.js"></script>
     <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
