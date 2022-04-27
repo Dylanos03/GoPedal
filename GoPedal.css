@@ -1,5 +1,5 @@
 .searchButton {
-    background-color: #94c11f;
+    background-color: white;
     border: 0px;
     margin: 20px;
     padding: 5px;
@@ -7,15 +7,16 @@
     padding-right: 20px;
     border-radius: 5px;
     font-family: 'Play', sans-serif;
+    color: #C3DFE0;
 }
 
 .formBox {
-    margin: 20px;
-    background-color: #C3DFE0;
-    padding: 30px;
+    margin: 0px;
+    background-color: #d7da01;
+    padding: 20px;
     padding-left: 80px;
     padding-right: 80px;
-    border-radius: 40px;
+    border-radius: 60px;
     min-width: fit-content;
     max-width: 2000;
 }
@@ -30,13 +31,14 @@
     position: absolute;
     top: 75%;
     left: 50%;
-    transform: translate(-54%, -50%);
+    transform: translate(-50%, -50%);
     align-content: center;
 }
 
 .BikeSearch {
     font-family: 'Play', sans-serif;
-
+    color: white;
+    font-size: 70px;
 }
 
 .WhenDo {
@@ -47,6 +49,7 @@
     text-align: center;
     margin-top: 100px;
     font-family: 'Play', sans-serif;
+    padding: 30px;
 }
 
 .GreenWays {
@@ -55,12 +58,14 @@
 }
 
 .HomeImg {
-    max-width: 220px;
+    max-height: 220px;
     position: static;
+    padding: 20px;
 }
 
 .GreenWaysText {
     padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 .PickUp {
@@ -95,7 +100,7 @@
 }
 
 .Member {
-    align-items: center;
+    align-content: center;
 }
 
 .MemImg {
@@ -142,8 +147,8 @@
 .Prices {
     background-color: #C3DFE0;
     padding-left: 8px;
-    border-radius: 8px;
-    border-color: white;
+    border-radius: 5px;
+    border: none;
     font-size: large;
 }
 
@@ -153,7 +158,7 @@
 
 .FooterTxt {
     color: white;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
     margin-top: 10px;
 }
@@ -167,11 +172,92 @@
 
 .FooterSub {
     color: lightgrey;
-    padding: 10px;
+    padding: 3px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .Inputs {
     margin-top: 20px;
+    color: #C3DFE0;
+}
+
+.checkBox {
+    color: white;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+body {
+    background-image: url(Images/backBike.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+.whiteBack {
+    background-color: white;
+}
+
+.Search {
+    background-color: #d7da01;
+    font-family: 'Play', sans-serif;
+    font-size: x-large;
+    color: white;
+    padding: 40px;
+    border-radius: 60px;
+    border: none;
+    padding-left: 80px;
+    padding-right: 80px
+}
+
+.subBikeSearch {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.Events {
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.memCard {
+    margin: 0px;
+
+}
+
+.searchItems {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-content: center;
+}
+
+.EventContainer {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.Member {
+    align-items: center;
+}
+
+.carouselCaption {
+    font-size: 60px;
+}
+
+.carouselSub {
+    font-size: 20px;
+}
+
+.caption {
+    background-color: #C3DFE0;
+    border: none;
 }
